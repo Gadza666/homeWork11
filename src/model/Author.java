@@ -1,9 +1,9 @@
 package model;
 
 public class Author {
-    public String firstName;
+    private String firstName;
 
-    public String lastName;
+    private  String lastName;
 
     public Author(String firstName, String lastName) {
         this.firstName = firstName;
